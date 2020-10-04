@@ -41,7 +41,7 @@ this file bor32.cfg and keep a copy in both the ANTLR and DLG subdirectories.
 -N-
 -k-
 -d
--O2-e-l
+-O0-e-l
 -Z
 -D__STDC__=1
 ==== End of file bor32.cfg (cut here) =========================================

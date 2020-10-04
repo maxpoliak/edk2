@@ -65,7 +65,7 @@ INCLUDE = $(TOOL_INCLUDE) -I $(MAKEROOT) -I $(MAKEROOT)/Include/Common -I $(MAKE
 BUILD_CPPFLAGS = $(INCLUDE)
 
 # keep EXTRA_OPTFLAGS last
-BUILD_OPTFLAGS = -O2 $(EXTRA_OPTFLAGS)
+BUILD_OPTFLAGS = -O0 $(EXTRA_OPTFLAGS)
 
 ifeq ($(DARWIN),Darwin)
 # assume clang or clang compatible flags on OS X
